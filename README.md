@@ -201,7 +201,7 @@ After we are done, your environment will look like this:
         Add-MpPreference -AttackSurfaceReductionRules_Ids $rule -AttackSurfaceReductionRules_Actions Enabled
     }
     ```
-1. Check that rules are applied correctly:
+1. Check that rules are applied correctly (Result should be "True"):
     ```powershell
     (Get-MpPreference | Select-Object -ExpandProperty AttackSurfaceReductionRules_Ids).Count -eq 15
     ```
