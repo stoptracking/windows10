@@ -21,7 +21,7 @@ Allow Windows users to control the operating system they ~~own~~ have licensed f
 Microsoft Windows 10 on x86-64.
 
 # Foreword
-Great care should be taken when using commercial operating system with "post-sale monetisation" as a part of its business model. Make no mistake as to what is a product and [where profits are coming from](https://www.microsoft.com/investor/reports/ar19/index.html).
+Great care should be taken when using commercial operating system with "post-sale monetisation" as a part of its business model. Make no mistake as to what is a product and [where profits are coming from](https://www.microsoft.com/investor/reports/ar20/index.html).
 
 ## Rationale
 One might ask, &mdash; _"Why to bother with MS product while there are better \*nix-based operating systems?"_<br />
