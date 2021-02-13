@@ -26,7 +26,5 @@ Get-WindowsOptionalFeature -Online | Where-Object { $_.FeatureName -like "Intern
 Write-Host "Disable 'Remote Assistance'"
 Get-WindowsCapability -Online | Where-Object { $_.Name -like "App.Support.QuickAssist*" } | Remove-WindowsCapability -Online
 
-Write-Host "Disable Hello Face"
-Get-WindowsCapability -Online | Where-Object { $_.Name -like "Hello.Face*" } | Remove-WindowsCapability -Online
 
 Write-Host "All done! Please proceed with the new user creation and delete this one afterwards."
